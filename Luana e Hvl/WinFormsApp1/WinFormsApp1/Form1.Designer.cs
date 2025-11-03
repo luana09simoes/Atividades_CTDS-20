@@ -28,16 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            listBox1 = new ListBox();
+            listBoxLanches = new ListBox();
             numericUpDown1 = new NumericUpDown();
             pedido = new GroupBox();
-            groupBox1 = new GroupBox();
-            label1 = new Label();
-            textBox1 = new TextBox();
-            label2 = new Label();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
             label3 = new Label();
+            textBox3 = new TextBox();
+            groupBox1 = new GroupBox();
+            textBox2 = new TextBox();
+            label2 = new Label();
+            textBox1 = new TextBox();
+            label1 = new Label();
             textBox4 = new TextBox();
             textBox5 = new TextBox();
             textBox6 = new TextBox();
@@ -64,19 +64,6 @@
             numericUpDown9 = new NumericUpDown();
             numericUpDown10 = new NumericUpDown();
             groupBox2 = new GroupBox();
-            label7 = new Label();
-            textBox7 = new TextBox();
-            textBox8 = new TextBox();
-            textBox9 = new TextBox();
-            textBox10 = new TextBox();
-            textBox11 = new TextBox();
-            textBox12 = new TextBox();
-            textBox13 = new TextBox();
-            textBox14 = new TextBox();
-            textBox15 = new TextBox();
-            textBox16 = new TextBox();
-            pictureBox1 = new PictureBox();
-            label8 = new Label();
             textBox17 = new TextBox();
             textBox18 = new TextBox();
             textBox19 = new TextBox();
@@ -88,7 +75,21 @@
             textBox25 = new TextBox();
             textBox26 = new TextBox();
             label9 = new Label();
+            textBox16 = new TextBox();
+            textBox15 = new TextBox();
+            textBox14 = new TextBox();
+            textBox13 = new TextBox();
+            textBox12 = new TextBox();
+            textBox11 = new TextBox();
+            textBox10 = new TextBox();
+            textBox9 = new TextBox();
+            textBox8 = new TextBox();
+            textBox7 = new TextBox();
+            label7 = new Label();
+            pictureBox1 = new PictureBox();
+            label8 = new Label();
             label10 = new Label();
+            label11 = new Label();
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
             pedido.SuspendLayout();
             groupBox1.SuspendLayout();
@@ -105,15 +106,16 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
-            // listBox1
+            // listBoxLanches
             // 
-            listBox1.AccessibleDescription = "";
-            listBox1.FormattingEnabled = true;
-            listBox1.ItemHeight = 30;
-            listBox1.Location = new Point(6, 34);
-            listBox1.Name = "listBox1";
-            listBox1.Size = new Size(120, 94);
-            listBox1.TabIndex = 0;
+            listBoxLanches.AccessibleDescription = "";
+            listBoxLanches.Font = new Font("3ds Light", 12F, FontStyle.Italic, GraphicsUnit.Point);
+            listBoxLanches.FormattingEnabled = true;
+            listBoxLanches.ItemHeight = 21;
+            listBoxLanches.Location = new Point(6, 34);
+            listBoxLanches.Name = "listBoxLanches";
+            listBoxLanches.Size = new Size(142, 88);
+            listBoxLanches.TabIndex = 0;
             // 
             // numericUpDown1
             // 
@@ -126,15 +128,33 @@
             // 
             pedido.Controls.Add(label3);
             pedido.Controls.Add(textBox3);
-            pedido.Controls.Add(listBox1);
+            pedido.Controls.Add(listBoxLanches);
             pedido.Font = new Font("Segoe UI", 15.75F, FontStyle.Italic, GraphicsUnit.Point);
             pedido.ForeColor = SystemColors.ButtonHighlight;
-            pedido.Location = new Point(554, 84);
+            pedido.Location = new Point(554, 86);
             pedido.Name = "pedido";
-            pedido.Size = new Size(243, 205);
+            pedido.Size = new Size(243, 203);
             pedido.TabIndex = 3;
             pedido.TabStop = false;
             pedido.Text = "pedido";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 9.75F, FontStyle.Italic, GraphicsUnit.Point);
+            label3.Location = new Point(6, 148);
+            label3.Name = "label3";
+            label3.Size = new Size(124, 17);
+            label3.TabIndex = 8;
+            label3.Text = "Valor do Pedido (R$)";
+            // 
+            // textBox3
+            // 
+            textBox3.Location = new Point(6, 168);
+            textBox3.Multiline = true;
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(150, 22);
+            textBox3.TabIndex = 7;
             // 
             // groupBox1
             // 
@@ -151,24 +171,13 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "movimentação";
             // 
-            // label1
+            // textBox2
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 9.75F, FontStyle.Italic, GraphicsUnit.Point);
-            label1.Location = new Point(6, 31);
-            label1.Name = "label1";
-            label1.Size = new Size(119, 17);
-            label1.TabIndex = 4;
-            label1.Text = "Valor Recebido (R$)";
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(6, 51);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(169, 23);
-            textBox1.TabIndex = 5;
-            textBox1.TextChanged += textBox1_TextChanged;
+            textBox2.Location = new Point(6, 101);
+            textBox2.Multiline = true;
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(142, 23);
+            textBox2.TabIndex = 4;
             // 
             // label2
             // 
@@ -180,36 +189,29 @@
             label2.TabIndex = 6;
             label2.Text = "Troco";
             // 
-            // textBox2
+            // textBox1
             // 
-            textBox2.Location = new Point(6, 101);
-            textBox2.Multiline = true;
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(142, 23);
-            textBox2.TabIndex = 4;
+            textBox1.Location = new Point(6, 51);
+            textBox1.Multiline = true;
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(169, 23);
+            textBox1.TabIndex = 5;
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
-            // textBox3
+            // label1
             // 
-            textBox3.Location = new Point(6, 168);
-            textBox3.Multiline = true;
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(150, 22);
-            textBox3.TabIndex = 7;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 9.75F, FontStyle.Italic, GraphicsUnit.Point);
-            label3.Location = new Point(6, 148);
-            label3.Name = "label3";
-            label3.Size = new Size(124, 17);
-            label3.TabIndex = 8;
-            label3.Text = "Valor do Pedido (R$)";
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 9.75F, FontStyle.Italic, GraphicsUnit.Point);
+            label1.Location = new Point(6, 31);
+            label1.Name = "label1";
+            label1.Size = new Size(119, 17);
+            label1.TabIndex = 4;
+            label1.Text = "Valor Recebido (R$)";
             // 
             // textBox4
             // 
             textBox4.Font = new Font("Segoe UI", 11.25F, FontStyle.Italic, GraphicsUnit.Point);
-            textBox4.Location = new Point(598, 457);
+            textBox4.Location = new Point(598, 463);
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(165, 27);
             textBox4.TabIndex = 4;
@@ -248,11 +250,11 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Font = new Font("Segoe UI", 14.25F, FontStyle.Italic, GraphicsUnit.Point);
+            label5.Font = new Font("Segoe UI", 18F, FontStyle.Italic, GraphicsUnit.Point);
             label5.ForeColor = SystemColors.ButtonHighlight;
-            label5.Location = new Point(560, 12);
+            label5.Location = new Point(550, 22);
             label5.Name = "label5";
-            label5.Size = new Size(63, 25);
+            label5.Size = new Size(78, 32);
             label5.TabIndex = 8;
             label5.Text = "Fones:";
             // 
@@ -496,137 +498,6 @@
             groupBox2.TabStop = false;
             groupBox2.Text = "Ingredientes";
             // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Font = new Font("Segoe UI", 11.25F, FontStyle.Italic, GraphicsUnit.Point);
-            label7.Location = new Point(265, 24);
-            label7.Name = "label7";
-            label7.Size = new Size(57, 20);
-            label7.TabIndex = 29;
-            label7.Text = "R$(Un.)";
-            // 
-            // textBox7
-            // 
-            textBox7.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox7.Location = new Point(252, 47);
-            textBox7.Multiline = true;
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(70, 23);
-            textBox7.TabIndex = 30;
-            textBox7.Text = "           2,00";
-            // 
-            // textBox8
-            // 
-            textBox8.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox8.Location = new Point(252, 79);
-            textBox8.Multiline = true;
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(70, 23);
-            textBox8.TabIndex = 31;
-            textBox8.Text = "          2,00";
-            // 
-            // textBox9
-            // 
-            textBox9.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox9.Location = new Point(252, 141);
-            textBox9.Multiline = true;
-            textBox9.Name = "textBox9";
-            textBox9.Size = new Size(70, 23);
-            textBox9.TabIndex = 32;
-            textBox9.Text = "          1,50";
-            // 
-            // textBox10
-            // 
-            textBox10.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox10.Location = new Point(252, 174);
-            textBox10.Multiline = true;
-            textBox10.Name = "textBox10";
-            textBox10.Size = new Size(70, 23);
-            textBox10.TabIndex = 33;
-            textBox10.Text = "          2,00";
-            // 
-            // textBox11
-            // 
-            textBox11.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox11.Location = new Point(252, 203);
-            textBox11.Multiline = true;
-            textBox11.Name = "textBox11";
-            textBox11.Size = new Size(70, 23);
-            textBox11.TabIndex = 34;
-            textBox11.Text = "          1,50";
-            // 
-            // textBox12
-            // 
-            textBox12.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox12.Location = new Point(252, 232);
-            textBox12.Multiline = true;
-            textBox12.Name = "textBox12";
-            textBox12.Size = new Size(70, 23);
-            textBox12.TabIndex = 35;
-            textBox12.Text = "         0,50";
-            // 
-            // textBox13
-            // 
-            textBox13.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox13.Location = new Point(252, 264);
-            textBox13.Multiline = true;
-            textBox13.Name = "textBox13";
-            textBox13.Size = new Size(70, 23);
-            textBox13.TabIndex = 36;
-            textBox13.Text = "          0,70";
-            // 
-            // textBox14
-            // 
-            textBox14.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox14.Location = new Point(252, 297);
-            textBox14.Multiline = true;
-            textBox14.Name = "textBox14";
-            textBox14.Size = new Size(70, 23);
-            textBox14.TabIndex = 37;
-            textBox14.Text = "        0,50";
-            // 
-            // textBox15
-            // 
-            textBox15.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox15.Location = new Point(252, 112);
-            textBox15.Multiline = true;
-            textBox15.Name = "textBox15";
-            textBox15.Size = new Size(70, 23);
-            textBox15.TabIndex = 38;
-            textBox15.Text = "          1,00";
-            // 
-            // textBox16
-            // 
-            textBox16.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            textBox16.Location = new Point(252, 326);
-            textBox16.Multiline = true;
-            textBox16.Name = "textBox16";
-            textBox16.Size = new Size(70, 23);
-            textBox16.TabIndex = 39;
-            textBox16.Text = "          0,50";
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = Properties.Resources._1599176580;
-            pictureBox1.Location = new Point(12, 5);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(102, 61);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 40;
-            pictureBox1.TabStop = false;
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Font = new Font("Segoe UI", 15.75F, FontStyle.Italic, GraphicsUnit.Point);
-            label8.ForeColor = SystemColors.ButtonHighlight;
-            label8.Location = new Point(126, 5);
-            label8.Name = "label8";
-            label8.Size = new Size(145, 30);
-            label8.TabIndex = 41;
-            label8.Text = "TOP LANCHES\r\n";
-            // 
             // textBox17
             // 
             textBox17.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
@@ -737,22 +608,166 @@
             label9.TabIndex = 40;
             label9.Text = "R$(Un.)";
             // 
+            // textBox16
+            // 
+            textBox16.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            textBox16.Location = new Point(252, 326);
+            textBox16.Multiline = true;
+            textBox16.Name = "textBox16";
+            textBox16.Size = new Size(70, 23);
+            textBox16.TabIndex = 39;
+            textBox16.Text = "          0,50";
+            // 
+            // textBox15
+            // 
+            textBox15.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            textBox15.Location = new Point(252, 112);
+            textBox15.Multiline = true;
+            textBox15.Name = "textBox15";
+            textBox15.Size = new Size(70, 23);
+            textBox15.TabIndex = 38;
+            textBox15.Text = "          1,00";
+            // 
+            // textBox14
+            // 
+            textBox14.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            textBox14.Location = new Point(252, 297);
+            textBox14.Multiline = true;
+            textBox14.Name = "textBox14";
+            textBox14.Size = new Size(70, 23);
+            textBox14.TabIndex = 37;
+            textBox14.Text = "        0,50";
+            // 
+            // textBox13
+            // 
+            textBox13.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            textBox13.Location = new Point(252, 264);
+            textBox13.Multiline = true;
+            textBox13.Name = "textBox13";
+            textBox13.Size = new Size(70, 23);
+            textBox13.TabIndex = 36;
+            textBox13.Text = "          0,70";
+            // 
+            // textBox12
+            // 
+            textBox12.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            textBox12.Location = new Point(252, 232);
+            textBox12.Multiline = true;
+            textBox12.Name = "textBox12";
+            textBox12.Size = new Size(70, 23);
+            textBox12.TabIndex = 35;
+            textBox12.Text = "         0,50";
+            // 
+            // textBox11
+            // 
+            textBox11.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            textBox11.Location = new Point(252, 203);
+            textBox11.Multiline = true;
+            textBox11.Name = "textBox11";
+            textBox11.Size = new Size(70, 23);
+            textBox11.TabIndex = 34;
+            textBox11.Text = "          1,50";
+            // 
+            // textBox10
+            // 
+            textBox10.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            textBox10.Location = new Point(252, 174);
+            textBox10.Multiline = true;
+            textBox10.Name = "textBox10";
+            textBox10.Size = new Size(70, 23);
+            textBox10.TabIndex = 33;
+            textBox10.Text = "          2,00";
+            // 
+            // textBox9
+            // 
+            textBox9.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            textBox9.Location = new Point(252, 141);
+            textBox9.Multiline = true;
+            textBox9.Name = "textBox9";
+            textBox9.Size = new Size(70, 23);
+            textBox9.TabIndex = 32;
+            textBox9.Text = "          1,50";
+            // 
+            // textBox8
+            // 
+            textBox8.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            textBox8.Location = new Point(252, 79);
+            textBox8.Multiline = true;
+            textBox8.Name = "textBox8";
+            textBox8.Size = new Size(70, 23);
+            textBox8.TabIndex = 31;
+            textBox8.Text = "          2,00";
+            // 
+            // textBox7
+            // 
+            textBox7.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            textBox7.Location = new Point(252, 47);
+            textBox7.Multiline = true;
+            textBox7.Name = "textBox7";
+            textBox7.Size = new Size(70, 23);
+            textBox7.TabIndex = 30;
+            textBox7.Text = "           2,00";
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new Font("Segoe UI", 11.25F, FontStyle.Italic, GraphicsUnit.Point);
+            label7.Location = new Point(265, 24);
+            label7.Name = "label7";
+            label7.Size = new Size(57, 20);
+            label7.TabIndex = 29;
+            label7.Text = "R$(Un.)";
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources._1599176580;
+            pictureBox1.Location = new Point(18, 3);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(102, 61);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 40;
+            pictureBox1.TabStop = false;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Font = new Font("Segoe UI", 15.75F, FontStyle.Italic, GraphicsUnit.Point);
+            label8.ForeColor = SystemColors.ButtonHighlight;
+            label8.Location = new Point(145, 5);
+            label8.Name = "label8";
+            label8.Size = new Size(145, 30);
+            label8.TabIndex = 41;
+            label8.Text = "TOP LANCHES\r\n";
+            // 
             // label10
             // 
             label10.AutoSize = true;
             label10.ForeColor = SystemColors.ButtonHighlight;
-            label10.Location = new Point(126, 35);
+            label10.Location = new Point(145, 35);
             label10.Name = "label10";
             label10.Size = new Size(136, 15);
             label10.TabIndex = 42;
             label10.Text = "www.toplanches.com.br";
+            label10.Click += label10_Click;
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.BackColor = Color.Transparent;
+            label11.ForeColor = SystemColors.ButtonHighlight;
+            label11.Location = new Point(145, 50);
+            label11.Name = "label11";
+            label11.Size = new Size(160, 30);
+            label11.TabIndex = 43;
+            label11.Text = "Avenida Barão Vermelho, 762\r\nLagoa do Meio\r\n";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Navy;
-            ClientSize = new Size(800, 496);
+            ClientSize = new Size(812, 513);
+            Controls.Add(label11);
             Controls.Add(label10);
             Controls.Add(label8);
             Controls.Add(pictureBox1);
@@ -777,6 +792,7 @@
             Controls.Add(groupBox2);
             Name = "Form1";
             Text = "    ";
+            Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
             pedido.ResumeLayout(false);
             pedido.PerformLayout();
@@ -800,7 +816,7 @@
 
         #endregion
 
-        private ListBox listBox1;
+        private ListBox listBoxLanches;
         private NumericUpDown numericUpDown1;
         private GroupBox pedido;
         private GroupBox groupBox1;
@@ -861,5 +877,6 @@
         private PictureBox pictureBox1;
         private Label label8;
         private Label label10;
+        private Label label11;
     }
 }
