@@ -1,0 +1,17 @@
+C:\Users\Senai.CEPEAS21104020.000\Desktop\WimFormsApp1luana\Jogo da idosa\Jogo da idosa\bin\Debug\net7.0-windows\Jogo da idosa.exe
+C:\Users\Senai.CEPEAS21104020.000\Desktop\WimFormsApp1luana\Jogo da idosa\Jogo da idosa\bin\Debug\net7.0-windows\Jogo da idosa.deps.json
+C:\Users\Senai.CEPEAS21104020.000\Desktop\WimFormsApp1luana\Jogo da idosa\Jogo da idosa\bin\Debug\net7.0-windows\Jogo da idosa.runtimeconfig.json
+C:\Users\Senai.CEPEAS21104020.000\Desktop\WimFormsApp1luana\Jogo da idosa\Jogo da idosa\bin\Debug\net7.0-windows\Jogo da idosa.dll
+C:\Users\Senai.CEPEAS21104020.000\Desktop\WimFormsApp1luana\Jogo da idosa\Jogo da idosa\bin\Debug\net7.0-windows\Jogo da idosa.pdb
+C:\Users\Senai.CEPEAS21104020.000\Desktop\WimFormsApp1luana\Jogo da idosa\Jogo da idosa\obj\Debug\net7.0-windows\Jogo da idosa.csproj.AssemblyReference.cache
+C:\Users\Senai.CEPEAS21104020.000\Desktop\WimFormsApp1luana\Jogo da idosa\Jogo da idosa\obj\Debug\net7.0-windows\Jogo_da_idosa.Form1.resources
+C:\Users\Senai.CEPEAS21104020.000\Desktop\WimFormsApp1luana\Jogo da idosa\Jogo da idosa\obj\Debug\net7.0-windows\Jogo da idosa.csproj.GenerateResource.cache
+C:\Users\Senai.CEPEAS21104020.000\Desktop\WimFormsApp1luana\Jogo da idosa\Jogo da idosa\obj\Debug\net7.0-windows\Jogo da idosa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Senai.CEPEAS21104020.000\Desktop\WimFormsApp1luana\Jogo da idosa\Jogo da idosa\obj\Debug\net7.0-windows\Jogo da idosa.AssemblyInfoInputs.cache
+C:\Users\Senai.CEPEAS21104020.000\Desktop\WimFormsApp1luana\Jogo da idosa\Jogo da idosa\obj\Debug\net7.0-windows\Jogo da idosa.AssemblyInfo.cs
+C:\Users\Senai.CEPEAS21104020.000\Desktop\WimFormsApp1luana\Jogo da idosa\Jogo da idosa\obj\Debug\net7.0-windows\Jogo da idosa.csproj.CoreCompileInputs.cache
+C:\Users\Senai.CEPEAS21104020.000\Desktop\WimFormsApp1luana\Jogo da idosa\Jogo da idosa\obj\Debug\net7.0-windows\Jogo da idosa.dll
+C:\Users\Senai.CEPEAS21104020.000\Desktop\WimFormsApp1luana\Jogo da idosa\Jogo da idosa\obj\Debug\net7.0-windows\refint\Jogo da idosa.dll
+C:\Users\Senai.CEPEAS21104020.000\Desktop\WimFormsApp1luana\Jogo da idosa\Jogo da idosa\obj\Debug\net7.0-windows\Jogo da idosa.pdb
+C:\Users\Senai.CEPEAS21104020.000\Desktop\WimFormsApp1luana\Jogo da idosa\Jogo da idosa\obj\Debug\net7.0-windows\Jogo da idosa.genruntimeconfig.cache
+C:\Users\Senai.CEPEAS21104020.000\Desktop\WimFormsApp1luana\Jogo da idosa\Jogo da idosa\obj\Debug\net7.0-windows\ref\Jogo da idosa.dll
