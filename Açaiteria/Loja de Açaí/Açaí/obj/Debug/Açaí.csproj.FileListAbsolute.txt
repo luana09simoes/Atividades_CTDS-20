@@ -1,0 +1,11 @@
+C:\Açaiteria\Loja de Açaí\Açaí\bin\Debug\Açaí.exe.config
+C:\Açaiteria\Loja de Açaí\Açaí\bin\Debug\Açaí.exe
+C:\Açaiteria\Loja de Açaí\Açaí\bin\Debug\Açaí.pdb
+C:\Açaiteria\Loja de Açaí\Açaí\obj\Debug\Açaí.csproj.AssemblyReference.cache
+C:\Açaiteria\Loja de Açaí\Açaí\obj\Debug\Açaí.Form1.resources
+C:\Açaiteria\Loja de Açaí\Açaí\obj\Debug\Açaí.Properties.Resources.resources
+C:\Açaiteria\Loja de Açaí\Açaí\obj\Debug\Açaí.csproj.GenerateResource.cache
+C:\Açaiteria\Loja de Açaí\Açaí\obj\Debug\Açaí.csproj.CoreCompileInputs.cache
+C:\Açaiteria\Loja de Açaí\Açaí\obj\Debug\Açaí.exe
+C:\Açaiteria\Loja de Açaí\Açaí\obj\Debug\Açaí.pdb
+C:\Açaiteria\Loja de Açaí\Açaí\obj\Debug\Açaí.exe.config
